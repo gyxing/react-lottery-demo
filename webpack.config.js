@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const path = require('path');
 module.exports = {
     module: {
         rules: [
@@ -27,7 +28,7 @@ module.exports = {
         })
     ],
     devServer: {
-        contentBase: require('path').join(__dirname, "dist"),
+        contentBase: path.join(__dirname, "dist"),
         compress: true,
         port: 8001,
         host: "127.0.0.1",
