@@ -1,0 +1,35 @@
+{
+  "name": "react-lottery",
+  "version": "1.0.0",
+  "description": "a react component for lottery dial",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gyxing/react-lottery.git"
+  },
+  "keywords": [
+    "lottery",
+    "react"
+  ],
+  "author": "gyx",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.6",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
