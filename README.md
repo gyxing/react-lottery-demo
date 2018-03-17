@@ -2,7 +2,7 @@
 a react component for lottery dial 
 抽奖转盘例子
 
-查看效果：[例子](https://gyxing.github.io/react-lottery/test)
+查看效果：[例子](https://gyxing.github.io/react-lottery/test?_blank)
 
 ```bash
 npm install
