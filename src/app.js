@@ -106,7 +106,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <div>
+            <div className="lottery-container">
                 <div className="lottery-box">
                     <div className="lottery-box-c" ref={ ref => this.container = ref }>
                         <canvas ref={ ref => this.canvas = ref } width="300" height="300" className="lottery-canvas"/>

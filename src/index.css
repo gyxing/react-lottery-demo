@@ -73,3 +73,9 @@
     padding: 15px;
     line-height: 22px;
 }
+@media screen and (min-width: 414px) {
+    .lottery-container {
+        width: 414px;
+        margin: 0 auto;
+    }
+}
