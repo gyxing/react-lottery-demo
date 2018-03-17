@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './index.css'
 
 let deg = 0;        // 转盘旋转角度
 let prizeIndex = 0; //获取的奖品
@@ -12,7 +13,7 @@ let data = [
     { label:'谢谢参与', ratio:0.79 }
 ];
 
-export default class extends Component {
+export default class App extends Component {
 
     constructor(props) {
         super(props);
