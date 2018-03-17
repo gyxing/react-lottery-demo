@@ -6,3 +6,6 @@ a react component for lottery dial
 npm install
 npm run start
 ```
+
+![Alt text](/src/lottery.png)
+
